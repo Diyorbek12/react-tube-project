@@ -8,7 +8,7 @@ export default function app() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/channel:id' element={<Channel />} />
+        <Route path='/channel/:id' element={<Channel />} />
         <Route path='/video/:id' element={<VideoDetail />} />
         <Route path='/search/:id' element={<Search />} />
       </Routes>

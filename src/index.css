@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+  padding: 5px;
+}
+
 ::-webkit-scrollbar {
   width: 0;
   height: 1px;
@@ -42,4 +53,14 @@
 
 .category-btn:hover {
   background-color: rgb(228, 223, 223);
+}
+
+
+@media screen and (max-width: 600px) {
+  .search-bar {
+    width: 200px;
+  }
+  .react-player {
+    height: 45vh !important;
+  }
 }

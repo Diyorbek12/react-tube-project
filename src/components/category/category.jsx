@@ -4,7 +4,7 @@ import { category } from '../../constants';
 
 const Category = ({ selectedCategoryHandler, selectedCategory }) => {
   return (
-    <Stack direction={'row'} justifyContent={'space-between'}  p={2} pt={1} sx={{ overflowX: 'scroll' }}>
+    <Stack direction={'row'} justifyContent={'space-between'}  p={2} pt={1} sx={{overflowX: 'scroll'}}>
         {category.map(item => (
             <button key={item.name} 
             className='category-btn' 

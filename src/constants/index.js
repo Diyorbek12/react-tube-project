@@ -7,11 +7,11 @@ export  const category = [
     {name: 'Sport'},
     {name: 'Comedy'},
     {name: 'Podcast'},
-    {name: 'Fashion'},
     {name: 'Crypto'},
     {name: 'GYM'},
     {name: 'Music'},
     {name: 'Beauty'},
     {name: 'Jazz'},
     {name: 'Lo-fi'},
+    {name: 'Project zomboid'},
 ]
